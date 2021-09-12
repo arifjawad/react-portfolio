@@ -16,10 +16,9 @@ function App() {
                </Route>
                <Route path="*">
                <Notfound></Notfound>
-        </Route>
+              </Route>
            </Switch>
        </Router>
-
     );
 }
 

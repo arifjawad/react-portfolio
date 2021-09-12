@@ -1,0 +1,15 @@
+
+.footer_bottom{
+    text-align: center;
+    padding-bottom: 3rem;
+   
+}
+.footer_bottom a{
+  text-decoration: none;
+  padding:1rem;
+  font-family: 'Share Tech Mono', monospace;
+  color:burlywood;
+}
+.footer_bottom .f-pd1{
+    padding-top: 1rem;
+}

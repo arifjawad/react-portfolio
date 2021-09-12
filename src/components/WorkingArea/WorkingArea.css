@@ -1,0 +1,84 @@
+.project{
+    /* background-color: #d7cec1; */
+}
+.project h2 {
+    font-family: 'Bungee Hairline', cursive;
+    text-transform:uppercase;
+    font-size: 6rem;
+    text-align: center;
+    color: white;
+}
+.project h3 {
+    font-family: 'Bungee Hairline', cursive;
+    text-transform:uppercase;
+    font-size:3rem;
+    text-align: center;
+    color: white;
+}
+.work-cat{
+    position: relative;
+}
+.work-items {
+    list-style: none;
+    width: 100%;
+}
+
+.items-list {
+    font-size: 80px;
+    border-top: 1px solid grey;
+    /* background: linear-gradient(to right, red, purple); */
+    padding-bottom: 1rem;
+    cursor: pointer;
+    text-transform:uppercase;
+    /* font-family: 'Bungee Hairline', cursive; */
+    -webkit-text-stroke: 1px whitesmoke;
+    /* -webkit-text-stroke: 1px rgb(187, 184, 184); */
+    color: transparent !important;
+   padding-right: 30rem;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+.work-items li:after {
+    content: '';
+    position: absolute;
+    opacity: .7;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-image: url(../../assets/svgs/arrow.svg);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+/* gsap */
+
+.tickerwrapper {
+    /* the outer div */
+    position: relative;
+    width: 99.9%;
+    height: 80px;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+
+ul.list {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+}
+
+ul.list.cloned {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul.list li {
+    float: left;
+    padding-left: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 48pt;
+    font-weight: 600;
+    text-transform: uppercase;
+}

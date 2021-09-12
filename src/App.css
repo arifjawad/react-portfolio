@@ -1,37 +1,3 @@
-:root {
-    /* color config */
-    --color-0: #FFFEFC;
-    --color-1: #e6e7e8;
-    --color-2: #474747;
-    --color-3: #F5F0EC;
-    --color-4: #111111;
-    --main-color: var(--color-1);
-    --secondary-color: var(--color-2);
-    --font-1: 'Russo One', sans-serif;
-    --font-2: 'Sawarabi Gothic', sans-serif;
-    --primary-font: 'Graphik', sans-serif;
-    --stroke-width: calc(1em / 16);
-
-    --primary-color: tomato;
-    --secondary-color: #00f;
-    --primary-color-inverted: #09c;
-    --secondary-color-inverted: #ff0;
-}
-
-@import url("http://fonts.cdnfonts.com/css/monument-extended");
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Monument Extended";
-    color: #fff;
-    font-weight: 400;
-}
-
-body {
-    background: #1a1a1a;
-    margin-top: 2rem;
-}
-
 .section {
     padding-top: 3em;
     height: 935px;
