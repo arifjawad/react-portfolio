@@ -2,12 +2,10 @@ import React from 'react';
 import './WorkingArea.css';
 import '../../assets/svgs/arrow.svg';
 
-
-
 const WorkingArea = () => {
     
     return (
-        <>
+<>
     <section class="project section">
         <h2>my expertise in</h2>
         <h3>experience in . Sketching. creating Design . Development .Deployment</h3>
@@ -21,8 +19,8 @@ const WorkingArea = () => {
             </div>
         </div>
 
-        
-    {/* <div class="tickerwrapper">
+{/*         
+    <div class="tickerwrapper">
         <ul class='list'>
             <li class='listitem'>
                 <span>Ea semper in libertatis & calcat ut leo incendia at legalitate & desideriis</span>
@@ -36,7 +34,7 @@ const WorkingArea = () => {
         </ul>
     </div> */}
     </section>
-        </>
+ </>
     );
 };
 

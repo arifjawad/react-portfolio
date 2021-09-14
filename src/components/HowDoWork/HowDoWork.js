@@ -1,16 +1,26 @@
 import React from 'react';
 import "./HowDoWork.css";
 import anime from 'animejs/lib/anime.es';
+import { useState, useEffect } from 'react';
 
-let didScroll = false;
 
-let paralaxTitles = document.querySelectorAll('.paralax-title');
-let paralaxTitlesT2 = document.querySelectorAll('.paralax-title-t2');
-const scrollInProgress = () => {
-    didScroll = true
-}
 
-const raf = () => {
+
+
+
+const HowDoWork = () => {
+  
+    useEffect(() => {
+         
+    let didScroll = false;
+
+    let paralaxTitles = document.querySelectorAll('.paralax-title');
+    let paralaxTitlesT2 = document.querySelectorAll('.paralax-title-t2');   
+    const scrollInProgress = () => {
+        didScroll = true
+    }
+
+    const raf = () => {
     if(didScroll) {
         paralaxTitles.forEach((element, index) => {
             element.style.transform = "translateX("+ window.scrollY / 1.5 + "px)"
@@ -21,17 +31,14 @@ const raf = () => {
         didScroll = false;
     }
     requestAnimationFrame(raf);
-}
-
-
-requestAnimationFrame(raf);
-window.addEventListener('scroll', scrollInProgress);
-
-const HowDoWork = () => {
-
+    }
+    requestAnimationFrame(raf);
+    window.addEventListener('scroll', scrollInProgress);
+    });
+    
     return (
         <>
-      <section className="section hdw">
+      <section className="section  hdw">
     
           <h2 className="hdw-title">
               How do I work.
@@ -76,3 +83,7 @@ const HowDoWork = () => {
 };
 
 export default HowDoWork;
+
+
+
+
