@@ -6,17 +6,20 @@ import WorkingArea from '../WorkingArea/WorkingArea';
 import TechSide from '../TechSide/TechSide';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import Footer from '../Footer/Footer';
+import AboutMe from '../AboutMe/AboutMe';
 
 const Home = () => {
     return (
         <>
            <Hero></Hero> 
-           <HowDoWork></HowDoWork> 
-           <Works></Works>
-           <WorkingArea></WorkingArea>
-           <TechSide></TechSide>
-           <LetsTalk></LetsTalk>
-           <Footer></Footer>
+           <AboutMe></AboutMe>
+           {/* <HowDoWork></HowDoWork> */}
+     
+           {/* <WorkingArea></WorkingArea> */}
+           {/* <TechSide></TechSide> */}
+           {/* <Works></Works>
+           <LetsTalk></LetsTalk> */}
+           {/* <Footer></Footer> */}
         </>
     );
 };

@@ -1,0 +1,64 @@
+.aboutMe{
+    text-align: center;
+    position: relative;
+}
+.text-box{
+    padding-left: 22rem;
+    padding-right: 22rem;
+    max-width: 42rem;
+    display: inline-block;
+}
+.h2-am{
+   font-size: 6rem;
+   padding: 5rem;
+}
+.p-am{
+  
+    font-size: 1.5rem;
+    line-height: 3rem;
+    align-items:center;
+    text-align: justify;
+    /* text-transform: uppercase; */
+    letter-spacing: 0.02em;
+}
+.myImg{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    top: 20rem;
+   
+}
+.hovering p:hover+img{
+    display: block;
+    left: 5rem;
+    animation: fadeIn .5s 0s linear;
+
+}
+@keyframes fadeIn {
+ from{
+   
+      opacity: 10%;
+      left: 15rem;
+ }
+    to {
+        left: 5rem;
+        opacity: 100%;
+        animation-play-state: paused;
+    }
+    }
+  
+.sign {
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+    text-align: right;
+    margin-top: 3rem;
+}
+p{
+    position: relative;
+}
+.hovering p:before{
+position: absolute;
+content: attr(data-text);
+transition: all 1s cubic-bezier(0.84,0,0.99);
+}

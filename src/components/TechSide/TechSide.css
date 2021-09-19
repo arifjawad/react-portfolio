@@ -8,7 +8,8 @@
     /* background-color: #d7cec1; */
 }
 .tech_section h1{
-    font-family: 'Bungee Hairline', cursive;
+    /* font-family: 'Bungee Hairline', cursive; */
+    font-family: "Typometry";
     text-transform:uppercase;
     font-size: 6rem;
     padding-bottom: 5rem;
@@ -17,8 +18,8 @@
 .tech-icons{
     border: 4px solid #222222;
     padding: 1%;
-    width: 5%;
-    height: 15%;
+    width: 4.5vw;
+    height: 4vw;
     transform: rotate3d(1, 1, 1, 10deg);
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
 }

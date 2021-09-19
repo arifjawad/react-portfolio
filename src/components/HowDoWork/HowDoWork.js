@@ -48,7 +48,7 @@ const HowDoWork = () => {
 	            <div className="scroll-inner">
 
 		<h2 className="scroll-title">
-			<span className="paralax-title hdw-p">
+			<span className="paralax-title hdw-p ">
             I work on projects through Analyzing the concepts.
 			</span>
 		</h2>

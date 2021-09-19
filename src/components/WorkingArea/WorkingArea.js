@@ -19,7 +19,7 @@ const WorkingArea = () => {
             </div>
         </div>
 
-{/*         
+        
     <div class="tickerwrapper">
         <ul class='list'>
             <li class='listitem'>
@@ -32,7 +32,7 @@ const WorkingArea = () => {
                 <span>Ea semper in libertatis & calcat ut leo incendia at legalitate & desideriis</span>
             </li>
         </ul>
-    </div> */}
+    </div>
     </section>
  </>
     );
