@@ -48,7 +48,7 @@ const Hero = () => {
                        <p className="intro-bottom ">I help companies, brands and entrepreneurs world-wide bringing their web appearance to life. I develop modern web products and design real life experience.</p>                  
                     </div>
                    <div id='circle'>
-                   <p className="lemajorTypo">From Bangladesh</p>
+                   <p className=" bd-tag lemajorTypo">From Bangladesh</p>
                        </div>
                          {/* <div id="circle">                  
                         <img src={circleSvg} alt="svg" />
@@ -64,7 +64,7 @@ const Hero = () => {
 
        <section className="scroll-rap">
        <div className="text-row" >
-	        <div className="text-row--inner" >
+	        <div className="text-row---inner" >
 			     <div className="row" >
                  <span>Websites</span>
                <span>E-commerce</span>
@@ -74,7 +74,7 @@ const Hero = () => {
                <span>Admin-panel</span>
        		</div>
 			</div>
-	        <div className="text-row--inner reverse">
+	        <div className="text-row---inner reverse">
 			    </div>
          </div>
        </section>
