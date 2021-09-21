@@ -13,11 +13,14 @@ const Home = () => {
         <>
            <Hero></Hero> 
            <AboutMe></AboutMe>
+           <Works></Works>
+           <LetsTalk></LetsTalk>
+           
            {/* <HowDoWork></HowDoWork> */}
      
            {/* <WorkingArea></WorkingArea> */}
            {/* <TechSide></TechSide> */}
-           {/* <Works></Works>
+           {/* 
            <LetsTalk></LetsTalk> */}
            {/* <Footer></Footer> */}
         </>
