@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home/Home';
+import Home from './pages/Home/Home';
 import Notfound from './components/Notfound/Notfound';
+import Gallery from "./pages/Gallery/Gallery";
 
 function App() {
     return ( 
@@ -13,6 +14,9 @@ function App() {
                </Route>
                <Route path="/home">
                <Home></Home>
+               </Route>
+               <Route path="/gallery">
+               <Gallery></Gallery>
                </Route>
                <Route path="*">
                <Notfound></Notfound>

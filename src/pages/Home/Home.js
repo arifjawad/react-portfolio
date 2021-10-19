@@ -1,12 +1,12 @@
 import React from 'react';
-import Hero from '../Hero/Hero';
-import HowDoWork from '../HowDoWork/HowDoWork';
-import Works from '../Works/Works';
-import WorkingArea from '../WorkingArea/WorkingArea';
-import TechSide from '../TechSide/TechSide';
-import LetsTalk from '../LetsTalk/LetsTalk';
-import Footer from '../Footer/Footer';
-import AboutMe from '../AboutMe/AboutMe';
+import Hero from '../../components/Hero/Hero';
+import HowDoWork from '../../components/HowDoWork/HowDoWork';
+import Works from '../../components/Works/Works';
+import WorkingArea from '../../components/WorkingArea/WorkingArea';
+import TechSide from '../../components/TechSide/TechSide';
+import LetsTalk from '../../components/LetsTalk/LetsTalk';
+import Footer from '../../components/Footer/Footer';
+import AboutMe from '../../components/AboutMe/AboutMe';
 
 const Home = () => {
     return (
